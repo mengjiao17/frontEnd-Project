@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Steps</title>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/underscore/underscore.js"></script>
+    <script src="bower_components/backbone/backbone.js"></script>
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  <body>
+  <h1>This is the site shows favourite Posts, Albums and your Bucketlist</h1>
+    <ul class="nav">
+        <!-- href='#' is needed only to help the links look like links -->
+        <li><a id="showPost" href="#" onclick="loadPost()">Posts</a></li>
+        <li><a id="showAlbums" href="#" onclick="loadAlbums()">Albums</a></li>
+        
+        <li><a id="showTodo" href="#" onclick="loadList()">Bucketlist</a></li>
+
+    </ul>
+    <!-- <div id = ""></div>  -->
+    <div id = "container"></div>
+
+</body>  
+
+</html>
